@@ -22,6 +22,7 @@
 			<Item Name="Benchmark mupExpr_parse_and_eval.vi" Type="VI" URL="../Testing/Benchmark mupExpr_parse_and_eval.vi"/>
 			<Item Name="Benchmark mupLib.vi" Type="VI" URL="../Testing/Benchmark mupLib.vi"/>
 			<Item Name="Benchmark mupLib_eval.vi" Type="VI" URL="../Testing/Benchmark mupLib_eval.vi"/>
+			<Item Name="Benchmark mupLib_eval_bulk.vi" Type="VI" URL="../Testing/Benchmark mupLib_eval_bulk.vi"/>
 			<Item Name="Benchmark mupLib_parse_and_eval.vi" Type="VI" URL="../Testing/Benchmark mupLib_parse_and_eval.vi"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder"/>
@@ -30,7 +31,9 @@
 			<Item Name="mupExpr Demo2.vi" Type="VI" URL="../Examples/mupExpr Demo2.vi"/>
 			<Item Name="mupExpr Multi Test.vi" Type="VI" URL="../Examples/mupExpr Multi Test.vi"/>
 			<Item Name="mupExpr Test Exec.vi" Type="VI" URL="../Examples/mupExpr Test Exec.vi"/>
-			<Item Name="mupLib example.vi" Type="VI" URL="../Examples/mupLib example.vi"/>
+			<Item Name="mupLib Eval example.vi" Type="VI" URL="../Examples/mupLib Eval example.vi"/>
+			<Item Name="mupLib EvalMulti example.vi" Type="VI" URL="../Examples/mupLib EvalMulti example.vi"/>
+			<Item Name="mupLib EvalBulk example.vi" Type="VI" URL="../Examples/mupLib EvalBulk example.vi"/>
 		</Item>
 		<Item Name="muparser" Type="Folder" URL="../muparser">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
