@@ -21,4 +21,5 @@
 	<Item Name="mupSetExpr.vi" Type="VI" URL="../mupSetExpr.vi"/>
 	<Item Name="mupSetLocale.vi" Type="VI" URL="../mupSetLocale.vi"/>
 	<Item Name="mupSetVarValue.vi" Type="VI" URL="../mupSetVarValue.vi"/>
+	<Item Name="mupSetVarValue_Array.vi" Type="VI" URL="../mupSetVarValue_Array.vi"/>
 </Library>
