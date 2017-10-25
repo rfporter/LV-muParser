@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="15008000">
+	<Property Name="NI.Lib.Description" Type="Str">Library for interfacing LabVIEW with the muParser shared library.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)@!!!*Q(C=\&gt;4"&lt;&gt;N!%)8BF]#(8.6"I";G"1'M1#V-#\LGS";G"&lt;7A&amp;JZ+5!NK1@[ZHBB+E&amp;CQ9=-_;/G6K&lt;@E\+@FAN*I0[1(87[VYYPN$?04[./,Y]@L]9HW&gt;%O@((_@^PD6U:8\^$8D6/T[U`2H`&lt;^J``^^`RK`U82P^`;Z\&gt;@.4@LB?`;&lt;FB=2X@3C*TWU4(5RO=F.&lt;H+4G\T)C\T)C\T)CTT*ETT*ETT*ETT)ATT)ATT)AXQ=Z#)8O=ABG=H.2+;I+7!OBC,T94T'9TT'QV=:D`%9D`%9$Z@)?)T(?)T(?,B.RG-]RG-]RE/J)@%YS0%9$_66?!J0Y3E]B9=J68A+1$&amp;:5&lt;AI!E0&amp;9(&amp;3?!J0Y?&amp;5B;@Q&amp;*\#5XA96O%J0)7H]"1?&lt;BGL5E/T(/2Y++0%EXA34_**0*27YEE]C3@R*"[G5_**0!ECG4!J$E(*4=E&amp;S:@%EXDYJ]34?"*0YEE]$)UHF'.F&amp;MVSE/-*0)%H]!3?Q%-*":\!%XA#4_#BL!*0Y!E]A3@Q-*5#4_!*0!%EG*4J&amp;21,&lt;AQO#I,!Q^`9,4'?5AV*D%0KT;P?F/L.JNZ%[MWB@ODKB[F_3/L&amp;6S_K?L(5C[$_=7KU'K/?2(XT=K(/@*\I"`K?0N.X^#V^1V`46]ON\XTB_8T7[843Y8$1@L`80-`;\8&lt;;&lt;L@;&lt;$:;L^&gt;;L6&lt;0LY'@(-]PB+`Q8PI3BO_[LMM;01*AV2L6!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
