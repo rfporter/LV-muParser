@@ -13,18 +13,23 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Benchmarking" Type="Folder">
-			<Item Name="Benchmark exprParser.vi" Type="VI" URL="../Testing/Benchmark exprParser.vi"/>
-			<Item Name="Benchmark exprParser_eval.vi" Type="VI" URL="../Testing/Benchmark exprParser_eval.vi"/>
-			<Item Name="Benchmark exprParser_parse_and_eval.vi" Type="VI" URL="../Testing/Benchmark exprParser_parse_and_eval.vi"/>
-			<Item Name="Benchmark mupExpr.vi" Type="VI" URL="../Testing/Benchmark mupExpr.vi"/>
-			<Item Name="Benchmark mupExpr_eval.vi" Type="VI" URL="../Testing/Benchmark mupExpr_eval.vi"/>
-			<Item Name="Benchmark mupExpr_eval_bulk.vi" Type="VI" URL="../Testing/Benchmark mupExpr_eval_bulk.vi"/>
-			<Item Name="Benchmark mupExpr_parse_and_eval.vi" Type="VI" URL="../Testing/Benchmark mupExpr_parse_and_eval.vi"/>
-			<Item Name="Benchmark mupLib.vi" Type="VI" URL="../Testing/Benchmark mupLib.vi"/>
-			<Item Name="Benchmark mupLib_eval.vi" Type="VI" URL="../Testing/Benchmark mupLib_eval.vi"/>
-			<Item Name="Benchmark mupLib_eval_bulk.vi" Type="VI" URL="../Testing/Benchmark mupLib_eval_bulk.vi"/>
-			<Item Name="Benchmark mupLib_parse_and_eval.vi" Type="VI" URL="../Testing/Benchmark mupLib_parse_and_eval.vi"/>
+		<Item Name="Testing" Type="Folder">
+			<Item Name="Benchmarking" Type="Folder">
+				<Item Name="Benchmark exprParser.vi" Type="VI" URL="../Testing/Benchmark exprParser.vi"/>
+				<Item Name="Benchmark exprParser_eval.vi" Type="VI" URL="../Testing/Benchmark exprParser_eval.vi"/>
+				<Item Name="Benchmark exprParser_parse_and_eval.vi" Type="VI" URL="../Testing/Benchmark exprParser_parse_and_eval.vi"/>
+				<Item Name="Benchmark mupExpr.vi" Type="VI" URL="../Testing/Benchmark mupExpr.vi"/>
+				<Item Name="Benchmark mupExpr_eval.vi" Type="VI" URL="../Testing/Benchmark mupExpr_eval.vi"/>
+				<Item Name="Benchmark mupExpr_eval_bulk.vi" Type="VI" URL="../Testing/Benchmark mupExpr_eval_bulk.vi"/>
+				<Item Name="Benchmark mupExpr_parse_and_eval.vi" Type="VI" URL="../Testing/Benchmark mupExpr_parse_and_eval.vi"/>
+				<Item Name="Benchmark mupLib.vi" Type="VI" URL="../Testing/Benchmark mupLib.vi"/>
+				<Item Name="Benchmark mupLib_eval.vi" Type="VI" URL="../Testing/Benchmark mupLib_eval.vi"/>
+				<Item Name="Benchmark mupLib_eval_bulk.vi" Type="VI" URL="../Testing/Benchmark mupLib_eval_bulk.vi"/>
+				<Item Name="Benchmark mupLib_parse_and_eval.vi" Type="VI" URL="../Testing/Benchmark mupLib_parse_and_eval.vi"/>
+			</Item>
+			<Item Name="Test exprParser.vi" Type="VI" URL="../Testing/Test exprParser.vi"/>
+			<Item Name="Test mupExpr.vi" Type="VI" URL="../Testing/Test mupExpr.vi"/>
+			<Item Name="eqTestCases.csv" Type="Document" URL="../Testing/eqTestCases.csv"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
 			<Item Name="ReadMe.txt" Type="Document" URL="../ReadMe.txt"/>
@@ -59,6 +64,10 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="Robust CSV.lvlib" Type="Library" URL="/&lt;vilib&gt;/LAVA/Robust CSV/Robust CSV.lvlib"/>
+				<Item Name="AlmostEqual.lvlib" Type="Library" URL="/&lt;vilib&gt;/LAVA/AlmostEqual/AlmostEqual.lvlib"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
