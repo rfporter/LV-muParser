@@ -35,13 +35,13 @@
 			<Item Name="ReadMe.txt" Type="Document" URL="../ReadMe.txt"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="mupExpr Demo1.vi" Type="VI" URL="../Examples/mupExpr Demo1.vi"/>
-			<Item Name="mupExpr Demo2.vi" Type="VI" URL="../Examples/mupExpr Demo2.vi"/>
-			<Item Name="mupExpr Demo3.vi" Type="VI" URL="../Examples/mupExpr Demo3.vi"/>
-			<Item Name="mupExpr Demo4.vi" Type="VI" URL="../Examples/mupExpr Demo4.vi"/>
-			<Item Name="mupExpr Demo5.vi" Type="VI" URL="../Examples/mupExpr Demo5.vi"/>
-			<Item Name="mupExpr Multi Test.vi" Type="VI" URL="../Examples/mupExpr Multi Test.vi"/>
-			<Item Name="mupExpr Test Exec.vi" Type="VI" URL="../Examples/mupExpr Test Exec.vi"/>
+			<Item Name="mupExpr sglExpr sglVar example.vi" Type="VI" URL="../Examples/mupExpr sglExpr sglVar example.vi"/>
+			<Item Name="mupExpr sglExpr sglVar with constants example.vi" Type="VI" URL="../Examples/mupExpr sglExpr sglVar with constants example.vi"/>
+			<Item Name="mupExpr sglExpr multiVar example.vi" Type="VI" URL="../Examples/mupExpr sglExpr multiVar example.vi"/>
+			<Item Name="mupExpr multiExpr multiVar example.vi" Type="VI" URL="../Examples/mupExpr multiExpr multiVar example.vi"/>
+			<Item Name="mupExpr sglExpr multiVar bulkMode.vi" Type="VI" URL="../Examples/mupExpr sglExpr multiVar bulkMode.vi"/>
+			<Item Name="mupExpr Plot.vi" Type="VI" URL="../Examples/mupExpr Plot.vi"/>
+			<Item Name="mupExpr Calc.vi" Type="VI" URL="../Examples/mupExpr Calc.vi"/>
 			<Item Name="mupLib Eval example.vi" Type="VI" URL="../Examples/mupLib Eval example.vi"/>
 			<Item Name="mupLib EvalMulti example.vi" Type="VI" URL="../Examples/mupLib EvalMulti example.vi"/>
 			<Item Name="mupLib EvalBulk example.vi" Type="VI" URL="../Examples/mupLib EvalBulk example.vi"/>
@@ -68,6 +68,35 @@
 				<Item Name="AlmostEqual.lvlib" Type="Library" URL="/&lt;vilib&gt;/LAVA/AlmostEqual/AlmostEqual.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
@@ -88,7 +117,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A82AD58D-4CF7-43CF-A1CB-4BE8608E5CB0}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">mupTestApp.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/muParserTest/mupTestApp.exe</Property>
@@ -99,10 +128,10 @@
 				<Property Name="Destination[2].destName" Type="Str">Root</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/muParserTest</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5C0C8714-8ADC-4193-961D-56130F4CFC4A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F6474FC2-4E45-4A4E-A570-22217CFB95BA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/mupExpr Test Exec.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/mupExpr Plot.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
