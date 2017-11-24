@@ -1,4 +1,4 @@
-muParser API for LabVIEW v1.0.0
+muParser API for LabVIEW v1.1.0
 
 Author:	 Ryan Porter
 LAVA Name: Porter
