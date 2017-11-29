@@ -247,6 +247,17 @@
 			<Property Name="NI.ClassItem.State" Type="Int">34078736</Property>
 		</Item>
 	</Item>
+	<Item Name="Get Variable" Type="Folder">
+		<Item Name="Get_SglVar_Value.vi" Type="VI" URL="../Get_SglVar_Value.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%=!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!N!#A!&amp;6G&amp;M&gt;75!*E"Q!"Y!!"%0&lt;86Q28BQ=CZM&gt;G.M98.T!!JN&gt;56Y=()A&lt;X6U!!!81(!!)!!"!!9!#WVV=%6Y=()A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;U"Q!#!!!1!'!!JN&gt;8"&amp;?("S)'FO!!"5!0!!$!!$!!1!"1!(!!1!"!!%!!1!#!!%!!1!#1-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!!!!"!!I!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		</Item>
+	</Item>
 	<Item Name="Construct.vi" Type="VI" URL="../Construct.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'Q!!!!%A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'=XJ/97VF!!!=1%!!!@````]!"1Z798*J97*M:3"/97VF=Q!!*E"Q!"Y!!"%0&lt;86Q28BQ=CZM&gt;G.M98.T!!JN&gt;56Y=()A&lt;X6U!!!81(!!)!!"!!=!#WVV=%6Y=()A&lt;X6U!#*!)2R6=W5A=XFT&gt;'6N)'2F9WFN97QA='^J&lt;H1A+%9J!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!".!!Q!.1H6M;S"4;8JF)#AR+1!/1$$`````"'ZB&lt;75!!!N!#A!&amp;&gt;G&amp;M&gt;75!%E"1!!)!$!!."U.M&gt;8.U:8)!&amp;E"!!!(`````!!Y*1W^O=X2B&lt;H2T!"2!-0````]+28BQ=G6T=WFP&lt;A!!6!$Q!!Q!!Q!%!!9!#!!%!!1!"!!*!!I!#Q!0!"!$!!"Y!!!.#!!!!!!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!#!!!!!I!!!!+!!!##!!!!"!!!!!!!1!2!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
