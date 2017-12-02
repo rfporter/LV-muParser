@@ -40,6 +40,7 @@
 			<Item Name="mupExpr sglExpr sglVar with constants example.vi" Type="VI" URL="../Examples/mupExpr sglExpr sglVar with constants example.vi"/>
 			<Item Name="mupExpr sglExpr multiVar example.vi" Type="VI" URL="../Examples/mupExpr sglExpr multiVar example.vi"/>
 			<Item Name="mupExpr multiExpr multiVar example.vi" Type="VI" URL="../Examples/mupExpr multiExpr multiVar example.vi"/>
+			<Item Name="mupExpr multiExpr multiVar example2.vi" Type="VI" URL="../Examples/mupExpr multiExpr multiVar example2.vi"/>
 			<Item Name="mupExpr sglExpr multiVar bulkMode.vi" Type="VI" URL="../Examples/mupExpr sglExpr multiVar bulkMode.vi"/>
 			<Item Name="mupExpr Plot.vi" Type="VI" URL="../Examples/mupExpr Plot.vi"/>
 			<Item Name="mupExpr Calc.vi" Type="VI" URL="../Examples/mupExpr Calc.vi"/>
@@ -96,8 +97,9 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Robust CSV.lvlib" Type="Library" URL="/&lt;vilib&gt;/LAVA/Robust CSV/Robust CSV.lvlib"/>
-				<Item Name="AlmostEqual.lvlib" Type="Library" URL="/&lt;vilib&gt;/LAVA/AlmostEqual/AlmostEqual.lvlib"/>
+				<Item Name="Read CSV File.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/Robust CSV/Read CSV File.vi"/>
+				<Item Name="AlmostEqual_ULPs.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/AlmostEqual/AlmostEqual_ULPs.vi"/>
+				<Item Name="AlmostEqual_ULPs_DBL.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/AlmostEqual/AlmostEqual_ULPs_DBL.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
