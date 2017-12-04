@@ -21,23 +21,24 @@ Modifications to muParser include:
 - Support for ":" as a valid character for variable names.
 
 Installation and instructions:
-Install VIP package using JKI VI Package Manager 2017 or newer.
+Install VIP package using JKI VI Package Manager 2014 or newer.
 
 Examples:
 TODO
 
 Known Issues:
-none
+- log() is base e. Be sure to use log10() for base 10 instead.
+
+Version History:
+v1.0.0: Initial release.
+v1.1.0: Added get variable value to mupExpr class. Added examples.
+
+Support:
+If you have any problems with this code or want to suggest features please join the discussion here: https://lavag.org/topic/20262-cr-lv-muparser/
 
 Acknowledgements:
 - LAVA users ned and ensegre: Without their input, this project would have remained on the back burner.
 - Plasmionique: Allowing the release this project to LAVA
-
-Version History:
-v1.0.0: Initial release.
-
-Support:
-If you have any problems with this code or want to suggest features please join the discussion here: https://lavag.org/topic/20262-cr-lv-muparser/
 
 Distribution:
 This code was downloaded from the LAVA Code Repository found at lavag.org

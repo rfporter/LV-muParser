@@ -97,9 +97,8 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Read CSV File.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/Robust CSV/Read CSV File.vi"/>
-				<Item Name="AlmostEqual_ULPs.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/AlmostEqual/AlmostEqual_ULPs.vi"/>
-				<Item Name="AlmostEqual_ULPs_DBL.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/AlmostEqual/AlmostEqual_ULPs_DBL.vi"/>
+				<Item Name="Robust CSV.lvlib" Type="Library" URL="/&lt;vilib&gt;/LAVA/Robust CSV/Robust CSV.lvlib"/>
+				<Item Name="AlmostEqual.lvlib" Type="Library" URL="/&lt;vilib&gt;/LAVA/AlmostEqual/AlmostEqual.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
@@ -120,7 +119,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A82AD58D-4CF7-43CF-A1CB-4BE8608E5CB0}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">mupTestApp.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/muParserTest/mupTestApp.exe</Property>
@@ -179,7 +178,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6B129992-56FF-4AF7-9B5C-96C7E8EC8DF4}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Source Distribution</Property>
