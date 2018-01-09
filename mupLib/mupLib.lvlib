@@ -17,7 +17,9 @@
 	<Item Name="mupEval.vi" Type="VI" URL="../mupEval.vi"/>
 	<Item Name="mupEvalBulk.vi" Type="VI" URL="../mupEvalBulk.vi"/>
 	<Item Name="mupEvalMulti.vi" Type="VI" URL="../mupEvalMulti.vi"/>
+	<Item Name="mupGetExpr.vi" Type="VI" URL="../mupGetExpr.vi"/>
 	<Item Name="mupGetExprVars.vi" Type="VI" URL="../mupGetExprVars.vi"/>
+	<Item Name="mupGetLastError.vi" Type="VI" URL="../mupGetLastError.vi"/>
 	<Item Name="mupLibPath.vi" Type="VI" URL="../mupLibPath.vi"/>
 	<Item Name="mupRelease.vi" Type="VI" URL="../mupRelease.vi"/>
 	<Item Name="mupSetExpr.vi" Type="VI" URL="../mupSetExpr.vi"/>
