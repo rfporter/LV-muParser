@@ -1,4 +1,4 @@
-muParser API for LabVIEW v1.1.1
+muParser API for LabVIEW v2.0.0
 
 Author:	 Ryan Porter
 LAVA Name: Porter
@@ -33,6 +33,7 @@ Version History:
 v1.0.0: Initial release.
 v1.1.0: Added get variable value to mupExpr class. Added examples.
 v1.1.1: Added Get_Last_Error.vi for returning error token and position details to top level.
+v2.0.0: Changed mupExpr class from byRef to byValue. Enclosed hparser handle in DVR.
 
 Support:
 If you have any problems with this code or want to suggest features please join the discussion here: https://lavag.org/topic/20262-cr-lv-muparser/
