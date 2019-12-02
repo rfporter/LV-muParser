@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-11-02 11:51:51" Modified_Date="2019-06-03 17:24:46" Creator="porter" Comments="" ID="49f70cae4969886a37c1ab4b414f4a13">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-11-02 11:51:51" Modified_Date="2019-12-02 10:43:05" Creator="porter" Comments="" ID="27b8f0eeaefd5d97c50d842558c04b64">
   <Library_General_Settings>
     <Package_File_Name>LV_muParser</Package_File_Name>
-    <Library_Version>2.0.0.2</Library_Version>
+    <Library_Version>2.0.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\LV_muParser\Source Distribution</Library_Source_Folder>
     <Library_Output_Folder>..\builds\LV_muParser</Library_Output_Folder>
@@ -40,7 +40,7 @@ Modifications to muParser include:
       <Copyright>Copyright (c) 2017, Ryan Porter</Copyright>
       <Packager>Ryan Porter</Packager>
       <URL>https://lavag.org/files/file/295-lv-muparser/</URL>
-      <Release_Notes>Changed mupExpr to byValue class</Release_Notes>
+      <Release_Notes>Added accessor for reading constants</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -339,7 +339,7 @@ Modifications to muParser include:
         <Path>..\builds\LV_muParser\Source Distribution\mupExpr\Get_Var_Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A80440D019D0CB895229FE701BF47B4</GUID>
+      <GUID>00A653313E657D5040B591240D372F5B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
