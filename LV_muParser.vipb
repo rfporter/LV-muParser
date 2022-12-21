@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-11-02 11:51:51" Modified_Date="2022-12-21 02:11:17" Creator="porter" Comments="" ID="41fe3c28cb88583acb516f99b685e8c2">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-11-02 11:51:51" Modified_Date="2022-12-21 14:47:29" Creator="porter" Comments="" ID="771e8677ce849426b83487e8df22ceae">
   <Library_General_Settings>
     <Package_File_Name>LV_muParser</Package_File_Name>
-    <Library_Version>2.1.0.2</Library_Version>
+    <Library_Version>2.1.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\LV_muParser\Source Distribution</Library_Source_Folder>
     <Library_Output_Folder>..\builds\LV_muParser</Library_Output_Folder>
@@ -131,6 +131,18 @@ Modifications to muParser include:
         <Path>Examples</Path>
         <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>libmuparser-x32-lv.so</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>libmuparser-x64-lv.so</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
@@ -327,7 +339,7 @@ Modifications to muParser include:
         <Path>..\builds\LV_muParser\Source Distribution\mupExpr\Get_Var_Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AC885D572C186AAF2A20E444E36134DC</GUID>
+      <GUID>D39B0E3B96371C2775384E9A412363C7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
