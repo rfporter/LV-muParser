@@ -1,4 +1,4 @@
-muParser API for LabVIEW v2.0.1
+muParser API for LabVIEW
 
 Author:	 Ryan Porter
 LAVA Name: Porter
@@ -12,9 +12,9 @@ Dependencies:
 LAVA Palette
 
 Description:
-This package provides a simple API for calling the muParser Fast Math Expression Parser (http://beltoforion.de/article.php?a=muparser).
+This package provides a simple API for calling the muParser Fast Math Expression Parser (https://beltoforion.de/en/muparser/).
 
-A modified version of muParser v2.2.5 will be installed to your "<LabVIEW>\resource" directory. 
+A modified version of muParser will be installed to your "<LabVIEW>\resource" directory.
 
 Modifications to muParser include:
 - Support for the "!" (not) operator
@@ -35,6 +35,7 @@ v1.1.0: Added get variable value to mupExpr class. Added examples.
 v1.1.1: Added Get_Last_Error.vi for returning error token and position details to top level.
 v2.0.0: Changed mupExpr class from byRef to byValue. Enclosed hparser handle in DVR.
 v2.0.1: Added accessor for reading constants.
+v2.1.0: Updated muparser to v2.3.4. Renamed shared objects for non-windows targets.
 
 Support:
 If you have any problems with this code or want to suggest features please join the discussion here: https://lavag.org/topic/20262-cr-lv-muparser/
@@ -52,6 +53,6 @@ muParser API for LabVIEW
 Copyright (c) 2017, Ryan Porter
 Distributed under the BSD 2-Clause (http://opensource.org/licenses/BSD-2-Clause)
 
-muParser - Fast Math Parser Library v2.2.5
+muParser - Fast Math Parser Library v2.3.4
 Copyright (c) 2016 Ingo Berg 
 Distributed under the MIT License (https://opensource.org/licenses/MIT)
