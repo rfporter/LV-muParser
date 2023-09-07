@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-11-02 11:51:51" Modified_Date="2022-12-21 14:47:29" Creator="porter" Comments="" ID="771e8677ce849426b83487e8df22ceae">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-11-02 11:51:51" Modified_Date="2023-09-07 10:55:54" Creator="porter" Comments="" ID="37425897c8d5aa6953e1a54ac22fa349">
   <Library_General_Settings>
     <Package_File_Name>LV_muParser</Package_File_Name>
-    <Library_Version>2.1.0.3</Library_Version>
+    <Library_Version>3.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\LV_muParser\Source Distribution</Library_Source_Folder>
     <Library_Output_Folder>..\builds\LV_muParser</Library_Output_Folder>
@@ -23,7 +23,7 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
+      <Post-Install_VI>..\builds\LV_muParser\Source Distribution\mupPostInstall.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
@@ -32,15 +32,22 @@
       <One_Line_Description_Summary>API for calling muParser fast math expression parser (https://beltoforion.de/en/muparser/)</One_Line_Description_Summary>
       <Description>This package provides a simple API for calling the muParser Fast Math Expression Parser (https://beltoforion.de/en/muparser/).
 
-A modified version of muParser will be installed to your "&lt;LabVIEW&gt;\resource" directory. 
+A modified version of muParser will be installed to vi.lib. 
 
 Modifications to muParser include:
 - Support for the "!" (not) operator
-- Support for ":" as a valid character for variable names.</Description>
+- Support for ":" as a valid character for variable names.
+- Support for bitwise operator and "&amp;", or "|", xor "|^", not "~"
+- Support for floating point modulo "%"
+- Support for hex values (starting with 0x)
+- Support for binary values (starting with 0b)</Description>
       <Copyright>Copyright (c) 2017, Ryan Porter</Copyright>
       <Packager>Ryan Porter</Packager>
       <URL>https://lavag.org/files/file/295-lv-muparser/</URL>
-      <Release_Notes>Updated muparser to v2.3.4. Renamed shared objects for non-windows targets.</Release_Notes>
+      <Release_Notes>Renamed shared object to libmuparser-lv.dll for all targets. Statically linked.
+Support for bitwise operators.
+Support for binary and hex values.
+Support for modulo operator.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -116,33 +123,9 @@ Modifications to muParser include:
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>libmuparser-x32-lv.dll</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>libmuparser-x64-lv.dll</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>Examples</Path>
         <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>libmuparser-x32-lv.so</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>libmuparser-x64-lv.so</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
@@ -169,6 +152,9 @@ Modifications to muParser include:
       </Exclusions>
       <Exclusions>
         <Path>Examples/mupLib EvalMulti example.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>mupPostInstall.vi</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
@@ -339,7 +325,7 @@ Modifications to muParser include:
         <Path>..\builds\LV_muParser\Source Distribution\mupExpr\Get_Var_Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D39B0E3B96371C2775384E9A412363C7</GUID>
+      <GUID>9D7E46DE56F467A7D8EEBCBE0610A54C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

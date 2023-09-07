@@ -54,6 +54,11 @@
 		</Item>
 		<Item Name="mupLib" Type="Folder">
 			<Item Name="mupLib.lvlib" Type="Library" URL="../mupLib/mupLib.lvlib"/>
+			<Item Name="libmuparser-x32-lv.dll" Type="Document" URL="../mupLib/libmuparser-x32-lv.dll"/>
+			<Item Name="libmuparser-x32-lv.so" Type="Document" URL="../mupLib/libmuparser-x32-lv.so"/>
+			<Item Name="libmuparser-x64-lv.dll" Type="Document" URL="../mupLib/libmuparser-x64-lv.dll"/>
+			<Item Name="libmuparser-x64-lv.so" Type="Document" URL="../mupLib/libmuparser-x64-lv.so"/>
+			<Item Name="libmuparser-lv.dll" Type="Document" URL="../mupLib/libmuparser-lv.dll"/>
 		</Item>
 		<Item Name="mupExpr" Type="Folder">
 			<Item Name="mupExpr.lvclass" Type="LVClass" URL="../mupExpr/mupExpr.lvclass"/>
@@ -61,6 +66,7 @@
 		<Item Name="build" Type="Folder">
 			<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>
 			<Item Name="LV_muParser.vipb" Type="Document" URL="../LV_muParser.vipb"/>
+			<Item Name="mupPostInstall.vi" Type="VI" URL="../mupPostInstall.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -120,7 +126,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A82AD58D-4CF7-43CF-A1CB-4BE8608E5CB0}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">mupTestApp.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/muParserTest/mupTestApp.exe</Property>
@@ -131,16 +137,13 @@
 				<Property Name="Destination[2].destName" Type="Str">Root</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/muParserTest</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F6474FC2-4E45-4A4E-A570-22217CFB95BA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2A805B3A-2ABC-47F6-9D0D-3FC90964F577}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/mupExpr Plot.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/muparser/bin/libmuparser-x32-lv.dll</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">muParserTest</Property>
 				<Property Name="TgtF_internalName" Type="Str">muParserTest</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
@@ -175,11 +178,13 @@
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Source Distribution</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6B129992-56FF-4AF7-9B5C-96C7E8EC8DF4}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Source Distribution</Property>
@@ -192,56 +197,111 @@
 				<Property Name="Destination[4].destName" Type="Str">Examples</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/Source Distribution/Examples</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BDA35A6D-F283-4A3C-B0AD-A47FD3B164AF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0004B05E-48A7-4F0C-BADD-DB8CD041E040}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/muparser/bin/libmuparser-x32-lv.dll</Property>
+				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/muparser/bin/libmuparser-x64-lv.so</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/mupLib/libmuparser-x32-lv.so</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/muparser/bin/libmuparser-x32-lv.so</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/mupLib/libmuparser-x64-lv.dll</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Examples</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupCheckError.vi</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/mupLib/libmuparser-x64-lv.so</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupCreate.vi</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupDefineConst.vi</Property>
+				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupDefineVar.vi</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupDefineVar_Array.vi</Property>
+				<Property Name="Source[16].type" Type="Str">VI</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupEval.vi</Property>
+				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupEvalBulk.vi</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupEvalMulti.vi</Property>
+				<Property Name="Source[19].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupCheckError.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupGetExpr.vi</Property>
+				<Property Name="Source[20].type" Type="Str">VI</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupGetExprVars.vi</Property>
+				<Property Name="Source[21].type" Type="Str">VI</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupGetLastError.vi</Property>
+				<Property Name="Source[22].type" Type="Str">VI</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupLibPath.vi</Property>
+				<Property Name="Source[23].type" Type="Str">VI</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupRelease.vi</Property>
+				<Property Name="Source[24].type" Type="Str">VI</Property>
+				<Property Name="Source[25].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupSetExpr.vi</Property>
+				<Property Name="Source[25].type" Type="Str">VI</Property>
+				<Property Name="Source[26].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupSetLocale.vi</Property>
+				<Property Name="Source[26].type" Type="Str">VI</Property>
+				<Property Name="Source[27].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupSetVarValue.vi</Property>
+				<Property Name="Source[27].type" Type="Str">VI</Property>
+				<Property Name="Source[28].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupSetVarValue_Array.vi</Property>
+				<Property Name="Source[28].type" Type="Str">VI</Property>
+				<Property Name="Source[29].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[29].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[29].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/mupLib</Property>
+				<Property Name="Source[29].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/mupExpr</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/mupLib</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Documentation</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/mupExpr</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Documentation/ReadMe.txt</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Documentation</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/build/LICENSE</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Documentation/ReadMe.txt</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/build/LICENSE</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/build/mupPostInstall.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib</Property>
+				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">Library</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/muparser/bin/libmuparser-x64-lv.dll</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/mupLib/libmuparser-x32-lv.dll</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">30</Property>
 			</Item>
 		</Item>
 	</Item>
