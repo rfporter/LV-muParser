@@ -1,0 +1,21 @@
+Variable Values,
+a,13
+b,5
+c,32.125
+x,165425
+y,1
+_pi,3.14E+00
+_e,2.72E+00
+Formula,Expected Result
+a&b,5
+a|b,13
+a|^b,8
+0xFF&~b,250
+c%x,32.125
+x<<1,330850
+a<<b,416
+c>>b,1
+c>>3,4
+c|x&a,33
+(c|x)&a,1
+(x*y)&(y|^0xFF),48

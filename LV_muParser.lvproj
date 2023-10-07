@@ -32,9 +32,13 @@
 			<Item Name="Test mupExpr.vi" Type="VI" URL="../Testing/Test mupExpr.vi"/>
 			<Item Name="eqTestCases_exprParser.csv" Type="Document" URL="../Testing/eqTestCases_exprParser.csv"/>
 			<Item Name="eqTestCases_mupExpr.csv" Type="Document" URL="../Testing/eqTestCases_mupExpr.csv"/>
+			<Item Name="eqTestCases_mupExprBitwise.csv" Type="Document" URL="../Testing/eqTestCases_mupExprBitwise.csv"/>
+			<Item Name="eqTestCases_mupExprBitwise.xlsx" Type="Document" URL="../Testing/eqTestCases_mupExprBitwise.xlsx"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
-			<Item Name="ReadMe.txt" Type="Document" URL="../ReadMe.txt"/>
+			<Item Name="README.md" Type="Document" URL="../README.md"/>
+			<Item Name="LV-muParser User Guide.docx" Type="Document" URL="../Docs/LV-muParser User Guide.docx"/>
+			<Item Name="muParser Build Notes.pdf" Type="Document" URL="../Docs/muParser Build Notes.pdf"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="mupExpr sglExpr sglVar example.vi" Type="VI" URL="../Examples/mupExpr sglExpr sglVar example.vi"/>
@@ -285,7 +289,7 @@
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Documentation/ReadMe.txt</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/build/LICENSE</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>

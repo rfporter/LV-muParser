@@ -1,0 +1,15 @@
+*.vi binary
+*.vim binary
+*.lvproj binary
+*.lvclass binary
+*.lvlps binary
+*.aliases binary
+*.lvlib binary
+*.lvlipb binary
+*.vit binary
+*.ctl binary
+*.ctt binary
+*.xnode binary
+*.xcontrol binary
+*.rtm binary
+*.lvbitx binary
