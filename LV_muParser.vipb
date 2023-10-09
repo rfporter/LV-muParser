@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-11-02 11:51:51" Modified_Date="2023-09-07 10:55:54" Creator="porter" Comments="" ID="37425897c8d5aa6953e1a54ac22fa349">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-11-02 11:51:51" Modified_Date="2023-10-09 18:42:12" Creator="porter" Comments="" ID="a2a2b0fc6455f6ad5e760c987774a402">
   <Library_General_Settings>
     <Package_File_Name>LV_muParser</Package_File_Name>
-    <Library_Version>3.0.0.2</Library_Version>
+    <Library_Version>3.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\LV_muParser\Source Distribution</Library_Source_Folder>
     <Library_Output_Folder>..\builds\LV_muParser</Library_Output_Folder>
@@ -155,6 +155,12 @@ Support for modulo operator.</Release_Notes>
       </Exclusions>
       <Exclusions>
         <Path>mupPostInstall.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>LV-muParser User Guide.docx</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>muParser Build Notes.pdf</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
@@ -325,7 +331,7 @@ Support for modulo operator.</Release_Notes>
         <Path>..\builds\LV_muParser\Source Distribution\mupExpr\Get_Var_Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D7E46DE56F467A7D8EEBCBE0610A54C</GUID>
+      <GUID>794FC4DDB7B6CBD02D1C38DC1A8405D0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
