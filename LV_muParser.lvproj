@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -58,12 +58,12 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="mupLib" Type="Folder">
+			<Item Name="libmuparser-lv.dll" Type="Document" URL="../mupLib/libmuparser-lv.dll"/>
 			<Item Name="mupLib.lvlib" Type="Library" URL="../mupLib/mupLib.lvlib"/>
 			<Item Name="libmuparser-x32-lv.dll" Type="Document" URL="../mupLib/libmuparser-x32-lv.dll"/>
-			<Item Name="libmuparser-x32-lv.so" Type="Document" URL="../mupLib/libmuparser-x32-lv.so"/>
 			<Item Name="libmuparser-x64-lv.dll" Type="Document" URL="../mupLib/libmuparser-x64-lv.dll"/>
 			<Item Name="libmuparser-x64-lv.so" Type="Document" URL="../mupLib/libmuparser-x64-lv.so"/>
-			<Item Name="libmuparser-lv.dll" Type="Document" URL="../mupLib/libmuparser-lv.dll"/>
+			<Item Name="libmuparser-x64rt-lv.so" Type="Document" URL="../mupLib/libmuparser-x64rt-lv.so"/>
 		</Item>
 		<Item Name="mupExpr" Type="Folder">
 			<Item Name="mupExpr.lvclass" Type="LVClass" URL="../mupExpr/mupExpr.lvclass"/>
@@ -131,7 +131,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A82AD58D-4CF7-43CF-A1CB-4BE8608E5CB0}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">mupTestApp.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/muParserTest/mupTestApp.exe</Property>
@@ -142,7 +142,7 @@
 				<Property Name="Destination[2].destName" Type="Str">Root</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/muParserTest</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2A805B3A-2ABC-47F6-9D0D-3FC90964F577}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DF78F6AE-0F73-4A42-8DF5-1D1B15375898}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/mupExpr Plot.vi</Property>
@@ -212,10 +212,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/mupLib/libmuparser-x64-lv.dll</Property>
+				<Property Name="Source[10].itemID" Type="Ref"></Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/mupLib/libmuparser-x64-lv.so</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/mupLib/mupLib.lvlib/mupCreate.vi</Property>
@@ -299,10 +299,10 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/mupLib/libmuparser-x32-lv.dll</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/mupLib/libmuparser-x32-lv.so</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">29</Property>
 			</Item>
