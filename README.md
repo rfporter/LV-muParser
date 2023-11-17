@@ -18,8 +18,8 @@ Install the VIP package using JKI VI Package Manager 2020 or newer.
 
 # LabVIEW Versions
 Release:
-- LV 2015 (Windows) x32/x64 or later
-- LV 2015 (Linux) x32/x64 or later
+- LV 2018 (Windows) x32/x64 or later
+- LV 2018 (Linux) x32/x64 or later
 
 Development should be performed on LV 2015 (Windows) x32.
 
@@ -46,6 +46,7 @@ Examples are located in \<LabVIEW\>\examples\LAVA\muParser
 - v2.0.1: Added accessor for reading constants.
 - v2.1.0: Updated muparser to v2.3.4. Renamed shared objects for non-windows targets.
 - v3.0.0: Renamed shared object to libmuparser-lv.dll for all targets. Statically linked. Support for bitwise operators. Support for binary and hex values. Support for modulo operator.
+- v3.1.1: Added cRIO RT Linux support. Remapped error codes to 515000 range. Updated docs.
 
 # Distribution
 Source code of this project is located here: https://github.com/rfporter/LV-muParser

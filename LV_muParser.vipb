@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-11-02 11:51:51" Modified_Date="2023-11-15 00:09:03" Creator="porter" Comments="" ID="e2f3c79e9fea95a190d9b595b60b774b">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-11-02 11:51:51" Modified_Date="2023-11-17 02:22:51" Creator="porter" Comments="" ID="e830836b2b7c3170cc03ee52fe2da091">
   <Library_General_Settings>
     <Package_File_Name>LV_muParser</Package_File_Name>
-    <Library_Version>3.1.0.2</Library_Version>
+    <Library_Version>3.1.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\LV_muParser\Source Distribution</Library_Source_Folder>
     <Library_Output_Folder>..\builds\LV_muParser</Library_Output_Folder>
@@ -44,7 +44,9 @@ Modifications to muParser include:
       <Copyright>Copyright (c) 2017, Ryan Porter</Copyright>
       <Packager>Ryan Porter</Packager>
       <URL>https://lavag.org/files/file/295-lv-muparser/</URL>
-      <Release_Notes>Added support for cRIO Linux RT</Release_Notes>
+      <Release_Notes>Added support for cRIO Linux RT
+Remapped error codes to 515000 range
+Updated docs</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -155,9 +157,6 @@ Modifications to muParser include:
       </Exclusions>
       <Exclusions>
         <Path>LV-muParser User Guide.docx</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>muParser Build Notes.pdf</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
@@ -329,7 +328,7 @@ Modifications to muParser include:
         <Path>..\builds\LV_muParser\Source Distribution\mupExpr\Get_Var_Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9C3B6142F55BF7171201BB583C391B18</GUID>
+      <GUID>B15F4286A8A7BD7EEB0EBF321A3D0AFA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
